@@ -46,6 +46,7 @@ Route::resource('patients.metrics');
 - **Pure php sample.**  It dosen't need to install other library.  It was built with built-in libaraies that comes with php.
 - **Sqlite Database.**  It makes this sample runs without any other database configuration.  It generates sql schema automatically.
 - **Phpunit.**  It has phpunit test class.  Also it shows how to use this restful api.
+- **Can run locally**  It can run by itself without web servers like Apache.  Please type "php -S localhost:8888" without quotations in console.  
 
 ## Things to do
 - It dosen't have features like list and count of records with given condition.  These should be in this sample to be a complete sample but it wasn't in the requirements.  
