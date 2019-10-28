@@ -11,7 +11,7 @@
     "minimum-stability": "alpha",
     
     "require": {
-        "whyounes/laravel5-twig": "dev-master"
+        "kimdoseok/hrs_sample": "dev-master"
     },
     "repositories": [
         {
