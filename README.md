@@ -43,7 +43,7 @@ Route::resource('patients.metrics');
 ```
 
 ## Features
-- **Pure python sample.**  It dosen't need to install other library.  It was built with built-in libaraies that comes with php.
+- **Pure php sample.**  It dosen't need to install other library.  It was built with built-in libaraies that comes with php.
 - **Sqlite Database.**  It makes this sample runs without any other database configuration.  It generates sql schema automatically.
 - **Phpunit.**  It has phpunit test class.  Also it shows how to use this restful api.
 
