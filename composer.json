@@ -1,0 +1,22 @@
+{
+    "name": "kimdoseok/hrs_sample",
+    "description": "Sample Restful API for HRS",
+    "type": "project",
+    "authors": [
+        {
+            "name": "doseok",
+            "email": "doseok@madang.com"
+        }
+    ],
+    "minimum-stability": "alpha",
+    
+    "require": {
+        "whyounes/laravel5-twig": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/kimdoseok/hrs_sample"
+        }
+    ]
+}
