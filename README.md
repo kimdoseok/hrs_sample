@@ -49,4 +49,4 @@ Route::resource('patients.metrics');
 
 ## Things to do
 - It dosen't have features like list and count of records with given condition.  These should be in this sample to be a complete sample but it wasn't in the requirements.  
-- Routing has basic functionalry and dosen't have tags for parameters like "/patients/&lt;int&gt;/metrics/&lt;string&gt;".  This is much useful to make understand easyly and to reduce mistakes.
+- Routing has basic functionalry and dosen't have tags for parameters like "/patients/&lt;int&gt;/metrics/&lt;string&gt;".  This is much useful to make understand easier and to reduce mistakes.
