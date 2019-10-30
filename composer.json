@@ -1,5 +1,4 @@
 {
-    "name": "kimdoseok/hrs_sample",
     "description": "Sample Restful API for HRS",
     "type": "project",
     "authors": [
@@ -8,15 +7,25 @@
             "email": "doseok@madang.com"
         }
     ],
-    "minimum-stability": "alpha",
+    "minimum-stability": "dev",
     
-    "require": {
-        "kimdoseok/hrs_sample": "dev-master"
-    },
     "repositories": [
         {
-            "type": "vcs",
-            "url": "https://github.com/kimdoseok/hrs_sample"
+            "type": "package",
+            "package": {
+                "name": "kimdoseok/hrs_sample",
+                "version":"master",
+                "source": {
+                    "url": "https://github.com/kimdoseok/hrs_sample",
+                    "type": "git",
+                    "reference": "master"
+                }
+            }
         }
-    ]
+    ],
+    
+    "require": {
+        "kimdoseok/hrs_sample": "master"
+    }
+    
 }
